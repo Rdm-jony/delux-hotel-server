@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Junior Suite",
+        "img": "https://duruthemes.com/demo/html/cappa/demo5/img/rooms/1.jpg",
+        "description": "The Junior Suite. Junior suites are smaller than a regular suite but more importantly, typically don't have a solid separation between the bedrooms and living area. These suites have small living areas that are an extension of the bedroom space and don't come with dining areas",
+        "price": "150",
+        "capacity": "1-2",
+        "spft":"150"
+    },
+    {
+        "title": "Family Room",
+        "img": "https://duruthemes.com/demo/html/cappa/demo5/img/rooms/2.jpg",
+        "description": "Cosy yet large enough to accommodate three adults and three children, our Family Rooms in Brussels encompass two connecting rooms: a 30-square-metre Premium Room equipped with a king-size bed and a 25-square-metre Classic Room featuring two twin beds. Warm duvets and indulgent feather pillows drape the beds while the two marble bathrooms are equipped with separate bathtubs and showers.",
+        "price": "200",
+        "capacity": "2-3",
+        "spft":"200"
+    },
+    {
+        "title": "Double Room",
+        "img": "https://duruthemes.com/demo/html/cappa/demo5/img/rooms/3.jpg",
+        "description": "The twin room and double room seem to be the same. Both types of these hotel rooms are designed for two people. The twin room has two single beds. The double room has one double bed, so-called, a marital bed.Both types of rooms are designed for two people, but in a twin room they sleep separately, and in a double room - together. See what are the other types of hotel rooms and abbreviations.",
+        "price": "250",
+        "capacity": "2-3",
+        "spft":"250"
+    },
+    {
+        "title": "Deluxe Room",
+        "img": "https://duruthemes.com/demo/html/cappa/demo5/img/rooms/4.jpg",
+        "description": "Deluxe family rooms with sofa bed, are modern decorated and offering comfortable hospitality to a family with 2 children, or a company of 4 adults. They are totally soundproofed and equipped with high tech comforts such as high speed internet access, USB ports , smart TV, room cleaning touch system.",
+        "price": "300",
+        "capacity": "3-5",
+        "spft":"300"
+    },
+    {
+        "title": "Superior Room",
+        "img": "https://duruthemes.com/demo/html/cappa/demo5/img/rooms/7.jpg",
+        "description": "The Superior Room comprises of 1 Double bed or 2 Twin Beds, 2 Bedside Tables, a Desk & Chair. This room is larger than the Standard Room and is therefore spacious enough for an additional bed for triple occupancy. (Triple Room). The room is furnished with wall to wall carpeting, trendy furnishings and a balcony. Our ultramodern glass bathroom is equipped with hairdryer, magnifying shaving and make up mirror as well as all the amenities you could possible need during your stay.A Complimentary Bottle of Wine, Fresh Fruit and Mineral Water, are provided on arrival. Electric current: 220 Volts. Smoking rooms are also available",
+        "price": "150",
+        "capacity": "2-3",
+        "spft":"300"
+    },
+    {
+        "title": "Wellness Room",
+        "img": "https://duruthemes.com/demo/html/cappa/demo5/img/rooms/9.jpg",
+        "description": "Wyndham Wellness Rooms utilize scientific research along with engineering and technological advancements to help create a healthier guest room experience. Available at select Wyndham hotels, these rooms feature air purification, dawn simulation, a signature memory foam mattress, and more to ensure you have a rejuvenating night’s sleep. Whether you’re adjusting from jet lag or need to unwind before a business meeting, our Wyndham Wellness guest rooms put your well-being first.",
+        "price": "400",
+        "capacity": "3-4",
+        "spft":"175"
+    }
+]
