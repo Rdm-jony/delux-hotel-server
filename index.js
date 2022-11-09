@@ -20,16 +20,25 @@ async function run() {
         const reviewCollections = client.db("service-review").collection("reviews");
         app.get("/services", async (req, res) => {
             const query = {}
-            const cursor = serviceCollections.find(query);
+            const sort = { time: -1 };
+            const cursor = serviceCollections.find(query).sort(sort)
             const result = await cursor.limit(3).toArray()
             res.send(result)
         })
 
         app.get("/all-services", async (req, res) => {
             const query = {}
-            const cursor = serviceCollections.find(query);
+            const sort = { time: -1 };
+            const cursor = serviceCollections.find(query).sort(sort)
             const result = await cursor.toArray()
             res.send(result)
+        })
+
+        app.post("/all-services", async (req, res) => {
+            const service = req.body;
+            const result=await serviceCollections.insertOne(service)
+            res.send(result)
+           
         })
 
         app.get("/all-services/:id", async (req, res) => {
