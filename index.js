@@ -62,6 +62,23 @@ async function run() {
 
         })
 
+        app.put("/my-review/:id",async(req,res)=>{
+           const id=req.params.id;
+           const data=req.body;
+           console.log(id,data)
+           const query={_id:ObjectId(id)}
+           const options = { upsert: true };
+            const updateDoc={
+                $set:{
+                    description:data.updateDescription,
+                    rating:data.updateRating
+                }
+            }
+            const result= await reviewCollections.updateOne(query,updateDoc,options)
+            res.send(result)
+            console.log(result)
+        })
+
         app.get("/review/:id", async (req, res) => {
             const id = req.params.id;
             console.log(id)
